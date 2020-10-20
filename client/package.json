@@ -8,6 +8,7 @@
     "@testing-library/react": "^10.4.8",
     "@testing-library/user-event": "^12.1.1",
     "autoprefixer": "^9.8.6",
+    "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
     "mongoose": "^5.10.5",
     "react": "^16.13.1",
