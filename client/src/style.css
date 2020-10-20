@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+    background: black;
+}
+
+.nerdLogo {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.mainNav {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;    ;
+}
+
+.last-words {
+    color: white;
+}
+
+.james-logo {
+    color: white;
+    font-size: 100px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#shane-about {
+    color: white;
+    text-align: center;
+}
+
+.shaneNavBar {
+    color:rgb(215, 27, 27);
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.shaneNavBar:hover {
+    color: rgb(172, 6, 6);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);   
+}
+
+ .portNav {
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 25px;    
+    cursor: pointer; 
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 20px;
+}
+
+.portNav:hover {
+    color: rgba(245, 244, 244, 0.529);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);  
+} */
+
+.portHome {
+    margin-top: 20px;
+}
+
+.lyrics {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.admin {
+    background-color: rgb(65, 65, 65);
+    padding: 30px;
+}
+
+.slideshow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.videos {
+    height: 240px;
+    width: 426px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 768px) {
+    #photography
+        {
+            font-size: 11px;
+        }
+
+        .mainNavMedia {
+            font-size: 13px;
+        }
+
+        .shaneNavBar {
+            font-size: 20px;
+        }
+
+        .portNav {
+            font-size: 15px;
+        }
+        
+    }
+
+    @media (max-width: 768px) {
+    
+            .portNav {
+                font-size: 19   px;
+            }
+            
+        }
