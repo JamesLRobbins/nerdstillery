@@ -6,6 +6,7 @@ mongoose.connect('mongodb+srv://james:Autumn9603@news.doh4c.mongodb.net/news?ret
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
+require('./database');
 
 const app = express();
 const port = process.env.PORT || 5000;
