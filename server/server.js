@@ -5,7 +5,13 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://james:Autumn9603@news.doh4c.mongodb.net/news?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const isDev = process.env.NODE_ENV !== 'production';
 const path = require('path');
+
+const config = require('../config/config');
+
+mongoose.connect(isDev ? config.db_dev : config.db);
+mongoose.Promise = global.Promise;
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -31,8 +37,4 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
-
-
-
-
 
