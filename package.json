@@ -1,11 +1,12 @@
 {
   "name": "nerdstillery-express",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "client": "cd client && yarn start",
     "server": "cd server && nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"cd server && yarn server\" \"yarn client\"",
-    "start": "node server.js",
+    "start": "node server/server.js",
     "build": "cd client && npm run build",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },

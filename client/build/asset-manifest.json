@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7928d7c.chunk.css",
+    "main.js": "/static/js/main.6927c2f2.chunk.js",
+    "main.js.map": "/static/js/main.6927c2f2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8129dfe4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8129dfe4.js.map",
+    "static/css/2.e6cf9162.chunk.css": "/static/css/2.e6cf9162.chunk.css",
+    "static/js/2.4a3267cf.chunk.js": "/static/js/2.4a3267cf.chunk.js",
+    "static/js/2.4a3267cf.chunk.js.map": "/static/js/2.4a3267cf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bdaa436f0e31f8152d8a87df480d995d.js": "/precache-manifest.bdaa436f0e31f8152d8a87df480d995d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e6cf9162.chunk.css.map": "/static/css/2.e6cf9162.chunk.css.map",
+    "static/css/main.c7928d7c.chunk.css.map": "/static/css/main.c7928d7c.chunk.css.map",
+    "static/js/2.4a3267cf.chunk.js.LICENSE.txt": "/static/js/2.4a3267cf.chunk.js.LICENSE.txt",
+    "static/media/Shane.png": "/static/media/Shane.f10c3699.png",
+    "static/media/StaticSirenLogo.png": "/static/media/StaticSirenLogo.527ad685.png",
+    "static/media/crypticCallingLogo.png": "/static/media/crypticCallingLogo.2bcc8b62.png",
+    "static/media/lastWords.jpg": "/static/media/lastWords.dbf9d113.jpg",
+    "static/media/nerdCouple.png": "/static/media/nerdCouple.b21373b8.png",
+    "static/media/nerdlogo.jpg": "/static/media/nerdlogo.2b9469bc.jpg",
+    "static/media/segaJamesLogo.png": "/static/media/segaJamesLogo.63e588e6.png",
+    "static/media/shaneHomepageTest.jpg": "/static/media/shaneHomepageTest.a529a619.jpg",
+    "static/media/shaneIconInterted.png": "/static/media/shaneIconInterted.341a46ee.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8129dfe4.js",
+    "static/css/2.e6cf9162.chunk.css",
+    "static/js/2.4a3267cf.chunk.js",
+    "static/css/main.c7928d7c.chunk.css",
+    "static/js/main.6927c2f2.chunk.js"
+  ]
+}
