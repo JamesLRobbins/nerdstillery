@@ -8,11 +8,6 @@ const bodyParser = require('body-parser');
 const isDev = process.env.NODE_ENV !== 'production';
 const path = require('path');
 
-const config = require('../config/config');
-
-mongoose.connect(isDev ? config.db_dev : config.db);
-mongoose.Promise = global.Promise;
-
 const app = express();
 const port = process.env.PORT || 5000;
 
