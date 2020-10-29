@@ -49,8 +49,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use('/api', require('./routes/news'))
-app.use('/api', require('./routes/image'))
+app.use('/api', require('./server/routes/news'))
+app.use('/api', require('./server/routes/image'))
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
