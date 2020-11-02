@@ -9,8 +9,9 @@ function Contact() {
                 <Grid.Row columns={1}>
                     <Grid.Column fluid verticalAlign="middle">
                     <h4><b>Social Media</b></h4> <br />
-                        <a href="https://www.facebook.com/SidneyVinsonPhotography/"><Icon name='facebook' size="large"/></a>
-                        <a href="https://www.instagram.com/sidneyvinsonphotography/"><Icon name='instagram' size="large"    /></a>
+                        <Button icon="facebook large" color="facebook"></Button>
+                        <Button icon="instagram large" color="instagram"></Button>
+                        <Button icon="twitch large" color="violet"></Button>
                         </Grid.Column>
                     <Grid.Column fluid verticalAlign="middle">
                         <br />

@@ -9,17 +9,16 @@ function Contact() {
                 <Grid.Row columns={1}>
                     <Grid.Column fluid verticalAlign="middle">
                     <h4><b>Social Media</b></h4> <br />
-                        <a href="https://www.facebook.com/Nerdstillery/"><Icon name="facebook" size="large"/></a>
-                        <a href="https://www.instagram.com/Nerdstillery/"><Icon name="instagram" size="large"/></a>
-                        <a href="https://www.twitter.com/Nerdstillery/"><Icon name="twitter" size="large"/></a>
-                        <a href="https://www.linkedin.com/in/james-robbins-08750953/"><Icon name="linkedin" size="large"/></a>
+                        <Button circular color="facebook" icon="facebook large"></Button>
+                        <Button circular color="instagram" icon="instagram large"></Button>
+                        <Button circular color="twitter" icon="twitter large"></Button>
+                        <Button circular color="youtube" icon="youtube play large"></Button>
                         </Grid.Column>
                     <Grid.Column fluid verticalAlign="middle">
                         <br />
-                        <h4><b>Contact</b></h4> <br />
+                        <h4><b>Contact</b></h4>
                         <b>Website issues:</b> JamesLRobbins86@gmail.com<br />
-                        <b>General Questions:</b> Nerdstillery@gmail.com<br />
-                        
+                        <b>General Questions:</b> Nerdstillery@gmail.com   
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
