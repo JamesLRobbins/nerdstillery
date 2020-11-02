@@ -7,8 +7,8 @@ export default class ShaneNavBar extends Component {
 
     return(
   
-  <Grid columns={5} centered>
-    <Grid.Row textAlign="center">
+  <Grid columns={5} fluid textAlign="center">
+    <Grid.Row>
       <Grid.Column width={3} verticalAlign="bottom" as={ Link } to="/" style={{ textDecoration: 'none'}}>
         <div className="shaneNavBar">Home</div>
       </Grid.Column>
