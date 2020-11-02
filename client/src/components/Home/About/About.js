@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react'
-import "./style.css";
 
 function About() {
     return(

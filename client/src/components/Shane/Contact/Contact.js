@@ -1,11 +1,31 @@
 import React from 'react';
+import { Button, Icon, Container, Grid, Divider } from 'semantic-ui-react'
 
-function ShaneContact() {
+function Contact() {
     return(
-        <div>
-            <h1 id="shane-about">I live here</h1>
-        </div>
+        <Container>
+            <Divider section inverted/>
+            <Grid centered className="contact">
+                <Grid.Row columns={1}>
+                    <Grid.Column fluid verticalAlign="middle">
+                    <h4><b>Social Media</b></h4> <br />
+                    <Button color='facebook'>
+                        <Icon name='facebook' /> <a href="https://www.facebook.com/SidneyVinsonPhotography/">Facebook</a>
+                    </Button>  
+                    <Button color='instagram' >
+                        <Icon name='instagram' /> <a href="https://www.instagram.com/sidneyvinsonphotography/">Instagram</a>
+                    </Button>
+                        </Grid.Column>
+                    <Grid.Column fluid verticalAlign="middle">
+                        <br />
+                        <h4><b>Contact</b></h4> <br />
+                        <b>Email:</b> sidneyvinsonphotography@gmail.com<br />
+                        
+                    </Grid.Column>
+                </Grid.Row>
+            </Grid>
+        </Container>
     )
 }
 
-export default ShaneContact;
+export default Contact;

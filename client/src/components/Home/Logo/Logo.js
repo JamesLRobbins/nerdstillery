@@ -1,9 +1,10 @@
 import React from 'react';
+import { Image } from 'semantic-ui-react'
 
 function Logo(props) {
     return(
         <div>
-            {props.home}
+            <Image centered fluid size="huge">{props.home}</Image>
         </div>
     )
 }

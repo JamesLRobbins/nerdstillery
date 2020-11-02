@@ -11,14 +11,7 @@ export default class MainNav extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted size="massive" fluid widths={5}>
-        <Menu.Item
-          name="Home"
-          icon="home"
-          active={activeItem === 'Home'}
-          onClick={this.handleItemClick && this.props.about} 
-          className="mainNav mainNavMedia"
-        />
+      <Menu inverted size="massive" fluid widths={4}>
         <Dropdown icon="gamepad" item text="Gaming" className="mainNav mainNavMedia">
             <Dropdown.Menu>
               <Dropdown.Item href="https://www.youtube.com/nerdstillery" target="_blank" rel="noopener noreferrer"><Icon name="youtube play" />Youtube</Dropdown.Item>
@@ -44,10 +37,10 @@ export default class MainNav extends Component {
           className="mainNav"
         />
         <Menu.Item
-          name='Contact'
-          active={activeItem === 'Contact'}
-          onClick={this.handleItemClick && this.props.contact}
-          icon="mail"
+          name="Anime"
+          icon="jpy"
+          active={activeItem === 'Home'}
+          onClick={this.handleItemClick && this.props.about} 
           className="mainNav mainNavMedia"
         />
       </Menu>

@@ -7,36 +7,7 @@ import Contact from '../components/Home/Contact/Contact';
 
 export default class Home extends React.Component {
 
-    constructor (props) {
-        super(props)
-        this.toggleContact = this.toggleContact.bind(this);
-        this.toggleAbout = this.toggleAbout.bind(this);
-
-        this.state = {
-            showAbout: true,
-            showContact: false
-        }
-    }
-
-        toggleAbout (event) {
-            event.preventDefault()
-            this.setState({
-                showAbout: true,
-                showContact: false
-            })
-        }
-
-        toggleContact (event) {
-            event.preventDefault()
-            this.setState({
-                showAbout: false,
-                showContact: true
-            })
-        }
-
     render() {
-        const {showAbout} = this.state;
-        const {showContact} = this.state;
         return( 
         <div>   
             <MainNav 
@@ -48,8 +19,8 @@ export default class Home extends React.Component {
                         home = {<div onClick={this.toggleAbout}><img src={require("../images/nerdlogo.jpg")} alt="nerdstillery" className="ui fluid image nerdLogo"/></div>}
                     />
                 </div>
-                { showAbout === true ? <About /> : "" }
-                { showContact === true ? <Contact /> : "" }     
+                <About />
+                <Contact />  
         </div>
         )
     }

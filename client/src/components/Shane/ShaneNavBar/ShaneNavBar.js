@@ -13,7 +13,7 @@ export default class ShaneNavBar extends Component {
         <div className="shaneNavBar">Home</div>
       </Grid.Column>
       <Grid.Column width={3} verticalAlign="bottom" onClick={this.props.about}>
-      <div className="shaneNavBar">About</div>
+      <div className="shaneNavBar">Equipment</div>
       </Grid.Column>
       <Grid.Column width={3} verticalAlign="top">
       <Image src={require("../../../images/shaneIconInterted.png")} alt="static-siren" size="tiny" centered/>
@@ -22,7 +22,7 @@ export default class ShaneNavBar extends Component {
         <div className="shaneNavBar">Portfolio</div>
       </Grid.Column>
       <Grid.Column width={3} verticalAlign="bottom" onClick={this.props.contact}>
-      <div className="shaneNavBar">Contact</div>
+      <div className="shaneNavBar">About</div>
       </Grid.Column>
     </Grid.Row>
   </Grid>

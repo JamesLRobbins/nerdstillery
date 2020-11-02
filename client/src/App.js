@@ -6,7 +6,7 @@ import StaticHome from "./pages/StaticSiren";
 import SegaJamesHome from "./pages/SegaJames";
 import JamesHome from "./pages/James";
 import ShaneHome from './pages/ShaneClient';
-import Admin from './pages/Admin';
+// import Admin from './pages/Admin';
 import NotFound from './components/Not Found/NotFound'
 
 import './style.css';
@@ -24,7 +24,7 @@ export default function App() {
                 <Route path="/segajames" component={SegaJamesHome} />
                 <Route path="/james" component={JamesHome} />
                 <Route path="/sidneyvinsonphotography" component={ShaneHome} />
-                <Route path="/nerd-admin" component={Admin} />
+                {/* <Route path="/nerd-admin" component={Admin} /> */}
                 <Route path="*" component={NotFound} />
             </Switch>
             </div>

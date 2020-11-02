@@ -90,7 +90,8 @@ export default class ShaneClient extends React.Component {
                     { showAbout === true ?  <ShaneAbout /> : "" }
                     { showEquipment === true ? <ShaneEquipment /> : "" }
                     { showPortfolio === true ? <ShanePortfolio /> : "" }
-                    { showContact === true ? <ShaneContact /> : "" }
+                    
+                    <ShaneContact />
                     
                 </div>
         </div>
