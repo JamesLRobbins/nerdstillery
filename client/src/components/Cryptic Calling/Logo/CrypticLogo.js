@@ -1,9 +1,9 @@
 import React from "react";
-import "../Logo/style.css";
+import { Image } from 'semantic-ui-react';
 
 function CrypticLogo() {
     return(
-        <img src={require("../../../images/crypticCallingLogo.png")} alt="nerdstillery" className="ui fluid image crypticLogo"/>
+        <Image src={require("../../../images/crypticCallingLogo.png")} alt="Cryptic Calling" size="massive" centered className="crypticLogo"/>
     )
 }
 

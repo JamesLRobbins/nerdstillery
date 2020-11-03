@@ -1,9 +1,9 @@
 import React from "react";
-import "../Logo/style.css";
+import { Image } from 'semantic-ui-react';
 
 function SegaJamesLogo() {
     return(
-        <img src={require("../../../images/segaJamesLogo.png")} alt="nerdstillery" className="ui fluid image segaLogo"/>
+        <Image src={require("../../../images/segaJamesLogo.png")} alt="segaJames" className="segaLogo" size="huge" centered/>
     )
 }
 

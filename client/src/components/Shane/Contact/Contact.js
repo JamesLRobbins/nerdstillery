@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Icon, Container, Grid, Divider } from 'semantic-ui-react'
+import { Button, Container, Grid, Divider } from 'semantic-ui-react'
 
 function Contact() {
     return(

@@ -1,9 +1,9 @@
 import React from "react";
-import "../Logo/style.css";
+import { Image } from "semantic-ui-react"
 
 function StaticLogo() {
     return(
-        <img src={require("../../../images/StaticSirenLogo.png")} alt="static-siren" className="ui fluid image staticLogo"/>
+        <Image src={require("../../../images/StaticSirenLogo.png")} alt="static-siren" className="staticLogo" size="massive" centered />
     )
 }
 

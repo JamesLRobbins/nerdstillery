@@ -12,7 +12,7 @@ export default class CrypticNavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted size="massive" fluid widths={6}>
+      <Menu inverted size="massive" fluid widths={5}>
          <Menu.Item as={ Link } to="/" id="home-button"
           name="home  "
           icon="home"
@@ -30,7 +30,9 @@ export default class CrypticNavBar extends Component {
         <Menu.Item
           name='Videos'
           active={activeItem === 'Videos'}
-          onClick={this.handleItemClick && this.props.videos}
+          href="https://www.youtube.com/playlist?list=PLwI5mUhAWmi3nuwuSS6G0XBB90DIeUmQx"
+          target="_blank" 
+          rel="noopener noreferrer"
         />
         <Menu.Item
           name='News'
@@ -41,11 +43,6 @@ export default class CrypticNavBar extends Component {
           name='About'
           active={activeItem === 'About'}
           onClick={this.handleItemClick && this.props.about}
-        />
-        <Menu.Item
-          name='Contact'
-          active={activeItem === 'Contact'}
-          onClick={this.handleItemClick && this.props.contact}
         />
       </Menu>
     )

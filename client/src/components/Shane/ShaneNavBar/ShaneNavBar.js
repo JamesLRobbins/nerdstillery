@@ -21,7 +21,7 @@ export default class ShaneNavBar extends Component {
     <Grid.Column width={3} verticalAlign="bottom" onClick={this.props.portfolio}>
         <div className="shaneNavBar">Portfolio</div>
       </Grid.Column>
-      <Grid.Column width={3} verticalAlign="bottom" onClick={this.props.contact}>
+      <Grid.Column width={3} verticalAlign="bottom" onClick={this.props.gear}>
       <div className="shaneNavBar">Gear</div>
       </Grid.Column>
     </Grid.Row>

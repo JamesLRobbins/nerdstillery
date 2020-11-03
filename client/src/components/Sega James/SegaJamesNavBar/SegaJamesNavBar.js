@@ -12,7 +12,7 @@ export default class SegaJamesNavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted size="massive" fluid widths={6}>
+      <Menu inverted size="massive" fluid widths={4}>
          <Menu.Item as={ Link } to="/"
           name="Home"
           icon="home"
@@ -20,17 +20,12 @@ export default class SegaJamesNavBar extends Component {
           onClick={this.handleItemClick}
           
         />
-        
-        <Menu.Item
-          name="Music"
-          active={activeItem === 'Music'}
-          onClick={this.handleItemClick && this.props.music}
-          
-        />
         <Menu.Item
           name='Videos'
           active={activeItem === 'Videos'}
-          onClick={this.handleItemClick && this.props.videos}
+          href="https://www.youtube.com/playlist?list=PLwI5mUhAWmi3fncOuA4hFw31FguZ1TNCQ"
+          target="_blank" 
+          rel="noopener noreferrer"
         />
         <Menu.Item
           name='News'
@@ -42,11 +37,7 @@ export default class SegaJamesNavBar extends Component {
           active={activeItem === 'About'}
           onClick={this.handleItemClick && this.props.about}
         />
-        <Menu.Item
-          name='Contact'
-          active={activeItem === 'Contact'}
-          onClick={this.handleItemClick && this.props.contact}
-        />
+
       </Menu>
     )
   }

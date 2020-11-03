@@ -1,42 +1,25 @@
 import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
-import axios from 'axios'
+// import axios from 'axios'
 import { Image } from 'semantic-ui-react';
  
 class Boudoir extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      imageArray: [],
-      cloudinaryLink: '',
-      catagory: '',
-      model: '',
-    }
-  }
-
-  componentDidMount() {
-    axios.get('http://localhost:5000/api/sid-images')
-    .then((res) => {
-      this.setState({
-        imageArray: res.data,
-        cloudinaryLink: '',
-        catagory: '',
-        model: '',
-      })
-    }) 
-  } 
 
   render() { 
-    const images = this.state.imageArray.filter(function (image) {
-      return image.catagory === "Boudoir";
-    }).map(function (image) {
-      return {original: image.cloudinaryLink,
-              thumbnail: image.cloudinaryLink}
-}) 
+   const boudoir = [
+     {
+       original: "https://res.cloudinary.com/nerdstillery/image/upload/v1602555556/b8rnqhv2risgzrqdgyja.jpg"
+     },
+     {
+       original: "https://res.cloudinary.com/nerdstillery/image/upload/v1602555553/qtv9fqt3v0yndggbgqoh.jpg"
+     },
+     {
+       original: "https://res.cloudinary.com/nerdstillery/image/upload/v1602555553/r3vrme24umaxozcytdtj.jpg"
+     }
+   ]
     return (  
-            <Image centered><ImageGallery items={images} sizes="100vw" /></Image>       
+            <Image centered><ImageGallery items={boudoir} sizes="100vw" /></Image>       
     )
   }
 }
