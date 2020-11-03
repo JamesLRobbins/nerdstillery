@@ -41,7 +41,7 @@ a {
     text-align: center;
 }
 
-.shane-about {
+.shane-about, .shane-gear {
     color: white;
     text-align: center;
     background: rgb(19, 19, 19);  
@@ -141,13 +141,17 @@ a {
         .portNav {
             font-size: 15px;
         }
+
+        .shane-gear {
+            font-size: 13px;
+        }
         
     }
 
     @media (max-width: 768px) {
     
             .portNav {
-                font-size: 19   px;
+                font-size: 19px;
             }
             
         }

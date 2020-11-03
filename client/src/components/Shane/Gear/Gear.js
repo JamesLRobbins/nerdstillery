@@ -3,7 +3,7 @@ import { Container, Grid } from 'semantic-ui-react';
 
 function ShaneGear() {
     return(
-        <Container className="shane-about" textAlign="center">
+        <Container className="shane-gear" textAlign="center">
             <Grid columns={4}>
                 <Grid.Row>
                     <Grid.Column>
