@@ -5,7 +5,7 @@ function ShaneAbout() {
     return(
         <Container className="shane-about" textAlign="left">
             <Image src={require("../../../images/sidVinAbout.jpg")} floated="left" size="small"/>
-            <p>As the official photographer for Nerdstillery, Shane attended school at Nossi College of Art in Nashville, TN and graduated in 2016.  
+            <p>As the official photographer for Nerdstillery, Shane attended school at Nossi College of Art in Nashville.  
                 After his grandfather gifted him an old Kodak Brownie Hawkeye camera, Shane developed a love for vintage cameras which eventually turned 
                 into a passion for photography.  With an active interest in cosplay, one of Shane’s biggest influences is Martin Wong Photography.  
                 Which he states is what motivates him to continue to develop his craft</p>
