@@ -144,7 +144,7 @@ a {
         }
 
         .portNav {
-            font-size: 15px;
+            font-size: 19px;
         }
 
         .shane-gear {
@@ -153,10 +153,10 @@ a {
         
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 700px) {
     
-            .portNav {
-                font-size: 19px;
+            .shane-gear {
+                font-size: 9px;
             }
             
         }
