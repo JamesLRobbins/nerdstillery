@@ -12,7 +12,7 @@ function CrypticCallingMusic(props) {
             <span className='date'>Released 2016</span>
           </Card.Meta>
           <Card.Description>
-            Available on <Button icon="play" href="https://play.google.com/music/listen?u=0#/sr/Cryptic+Calling" target="_blank" rel="noopener noreferrer" size="tiny" />
+            Available on <Button icon="play" href="https://play.google.com/music/listen?u=0#/album/Bnbdxwxegks3ijgxbobbfawndbi/Cryptic+Calling/Last+Words" target="_blank" rel="noopener noreferrer" size="tiny" />
             <Button icon="amazon" href="https://www.amazon.com/Last-Words-Cryptic-Calling/dp/B01DOH1JBE/ref=sr_1_2?dchild=1&keywords=Cryptic+Calling&qid=1600219140&sr=8-2" target="_blank" rel="noopener noreferrer" size="tiny" />
             <Button icon="spotify" href="https://open.spotify.com/artist/6rqBgpwZuPwlSB9nlFcqWK" target="_blank" rel="noopener noreferrer" size="tiny" />
             <Button icon="apple" href="https://music.apple.com/us/album/last-words/1096896761" target="_blank" rel="noopener noreferrer" size="tiny" />

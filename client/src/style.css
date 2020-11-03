@@ -6,8 +6,8 @@ body {
 }
 
 .nerdLogo, .staticLogo, .crypticLogo, .segaLogo {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .mainNav {
@@ -52,8 +52,8 @@ a {
 }
 
 .shaneTitle {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .shaneNavBar {
@@ -143,7 +143,7 @@ a {
         }
 
         .shane-gear {
-            font-size: 13px;
+            font-size: 11px;
         }
         
     }
