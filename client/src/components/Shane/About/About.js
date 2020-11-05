@@ -15,6 +15,8 @@ function ShaneAbout() {
                     Photographer for the Middle Tennessee Anime Convention (MTAC).  Please feel free to reach out for more information and session rate.</p>
 
                     <p>When not working photography, Shane enjoys drawing and play survival horror video games.</p>
+
+                    <p>For session inquires and pricing - please email sidneyvinsonphotography@gmail.com </p>
         </Container>
     )
 }

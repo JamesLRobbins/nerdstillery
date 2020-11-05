@@ -15,7 +15,7 @@ function StaticSirenMusic() {
             Available on <Button icon="play" href="https://play.google.com/music/listen?u=0#/album/Bqflti7egqlde5ltosiswafni74/Static+Siren/The+Descent" target="_blank" rel="noopener noreferrer" size="tiny" />
             <Button icon="amazon" href="https://www.amazon.com/Descent-Static-Siren/dp/B07KBY3RG6" target="_blank" rel="noopener noreferrer" size="tiny" />
             <Button icon="spotify" href="https://open.spotify.com/album/0AbC2h2jeebSEbm3qC5SNu" target="_blank" rel="noopener noreferrer" size="tiny" />
-            <Button icon="apple" href="https://music.apple.com/us/album/the-descent-single/1441728739" target="_blank" rel="noopener noreferrer" size="tiny" />
+            <Button icon="itunes note" href="https://music.apple.com/us/album/the-descent-single/1441728739" target="_blank" rel="noopener noreferrer" size="tiny" />
           </Card.Description>
         </Card.Content>
       </Card>

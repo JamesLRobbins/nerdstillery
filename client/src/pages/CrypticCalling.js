@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Icon } from 'semantic-ui-react';
+import { Button } from 'semantic-ui-react';
 import CrypticNavBar from "../components/Cryptic Calling/CrypticNavBar/CrypticNavBar";
 import CrypticLogo from '../components/Cryptic Calling/Logo/CrypticLogo';
 import Music from '../components/Cryptic Calling/Music/Music';
@@ -81,7 +81,7 @@ export default class Home extends React.Component {
 
                     <CrypticLogo />
 
-                    { showMusic === true ? <Music lyrics = {<Button onClick={this.toggleLyrics}>Lyrics <Icon name="music" /></Button>} /> : "" }
+                    { showMusic === true ? <Music lyrics = {<Button onClick={this.toggleLyrics}>Lyrics</Button>} /> : "" }
                     { showNews === true ? <News /> : "" }
                     { showAbout === true ? <About /> : "" }
                     { showLyrics === true ? <Lyrics  /> : "" }

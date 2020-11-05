@@ -37,14 +37,22 @@ export default class MainNav extends Component {
           as={Link} to="/sidneyvinsonphotography"
           className="mainNav"
         />
-        <Menu.Item
+        <Menu.Item id="discord"
+          name='Discord'
+          // active={activeItem === 'Photography'}
+          // onClick={this.handleItemClick}
+          icon="discord"
+          href="https://discord.com/channels/773367811824287786/773367814069288970" target="_blank" rel="noopener noreferrer"
+          className="mainNav mainNavMedia"
+        />
+        {/* <Menu.Item
           name="Anime"
           icon="jpy"
           active={activeItem === 'Home'}
           onClick={this.handleItemClick && this.props.about} 
           className="mainNav mainNavMedia"
           disabled
-        />
+        /> */}
       </Menu>
     )
   }
