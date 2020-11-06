@@ -42,7 +42,7 @@ export default class MainNav extends Component {
           // active={activeItem === 'Photography'}
           // onClick={this.handleItemClick}
           icon="discord"
-          href="https://discord.gg/MCqaeCev" target="_blank" rel="noopener noreferrer"
+          href="https://discord.gg/pfNaQGxS9X" target="_blank" rel="noopener noreferrer"
           className="mainNav mainNavMedia"
         />
         {/* <Menu.Item
