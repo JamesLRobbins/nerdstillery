@@ -16,7 +16,6 @@ export default function App() {
     return (<>
         <BrowserRouter>
         
-            <div>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/crypticcalling" component={CrypticHome} />
@@ -27,7 +26,6 @@ export default function App() {
                 {/* <Route path="/nerd-admin" component={Admin} /> */}
                 <Route path="*" component={NotFound} />
             </Switch>
-            </div>
         </BrowserRouter>
     </>
     );

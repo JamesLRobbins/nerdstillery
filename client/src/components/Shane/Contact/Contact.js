@@ -7,7 +7,7 @@ function Contact() {
             <Divider section inverted/>
             <Grid centered className="contact">
                 <Grid.Row columns={1}>
-                    <Grid.Column fluid verticalAlign="middle">
+                    <Grid.Column verticalAlign="middle">
                     <h4><b>Social Media</b></h4> <br />
                         <Button icon="facebook large" color="facebook" href="https://www.facebook.com/SidneyVinsonPhotography" target="_blank" rel="noopener noreferrer"></Button>
                         <Button icon="instagram large" color="instagram" href="https://www.instagram.com/sidneyvinsonphotography/" target="_blank" rel="noopener noreferrer"></Button>

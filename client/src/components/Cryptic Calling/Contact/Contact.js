@@ -8,7 +8,7 @@ function CrypticCallingContact() {
             <Divider section inverted/>
             <Grid centered className="contact" >
                 <Grid.Row columns={1}>
-                    <Grid.Column fluid verticalAlign="middle">
+                    <Grid.Column verticalAlign="middle">
                     <h4><b>Social Media</b></h4> <br />
                         <Button circular color="facebook" icon="facebook large" href="https://www.facebook.com/CrypticCalling" target="_blank" rel="noopener noreferrer"></Button>
                         <Button circular color="instagram" icon="instagram large" href="https://www.instagram.com/crypticcalling/" target="_blank" rel="noopener noreferrer"></Button>

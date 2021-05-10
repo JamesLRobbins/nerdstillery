@@ -16,7 +16,7 @@ export default class Home extends React.Component {
             />
                 <div className="ui container">
                     <Logo 
-                        home = {<div onClick={this.toggleAbout}><img src={require("../images/nerdlogo.jpg")} alt="nerdstillery" className="ui fluid image nerdLogo"/></div>}
+                        home = {<div onClick={this.toggleAbout}><img src={require("../images/nerdlogo.jpg")} alt="nerdstillery" className="ui image nerdLogo"/></div>}
                     />
                 </div>
                 <About />

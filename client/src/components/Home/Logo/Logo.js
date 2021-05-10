@@ -4,7 +4,7 @@ import { Image } from 'semantic-ui-react'
 function Logo(props) {
     return(
         <div>
-            <Image centered fluid size="huge">{props.home}</Image>
+            <Image centered size="massive">{props.home}</Image>
         </div>
     )
 }
